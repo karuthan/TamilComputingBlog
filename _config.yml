@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title:                               கருத்தனின் சிந்தனைப் பட்டறை
-locale:           en_US
+locale:           in_ta
 url:              http://localhost:4000
 
 
