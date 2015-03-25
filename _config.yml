@@ -5,8 +5,9 @@ description: தமிழில் கணினியல்
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 url: http://karuthan.github.io
+#url: http://localhost:4000
 encoding: utf-8
-
+comments: true
 
 # Jekyll configuration
 
@@ -23,8 +24,8 @@ gems:
 
 # Site owner
 owner:
-  name:
-  email:
+  name: கருத்தன்
+  email: kanasinapana@gmail.com
   twitter:
   google:
     ad-client: 
