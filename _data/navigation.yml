@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: Portfolio
-  url: /portfolio/
-  excerpt: "Things I’ve designed, illustrated, developed, coded, and whatever."
+- title: License
+  url: /license/
+  excerpt: "~Licence of this blog."
   image:
