@@ -1,3 +1,12 @@
+---
+title: License
+layout: article 
+author: கருத்தன்
+Search: License
+categories: License
+modified: 2015-04-15
+---
+
 ## creative commons
 
 # Attribution-NonCommercial-ShareAlike 4.0 International
