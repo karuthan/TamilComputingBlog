@@ -3,11 +3,9 @@ title: Encoding அறிமுகம்
 layout: article 
 author: கருத்தன்
 Search:  
-teaser: 400x200.png
 categories: vocabulary
-modified: 2014-08-27
+modified: 2015-04-26
 ---
-
 
 தேவைபடுவன:
 1.Google Chrome உலாவி

@@ -3,9 +3,8 @@ title: கணினியல் அறிமுகம்
 layout: article 
 author: கருத்தன்
 Search:  
-teaser: 400x200.png
 categories: vocabulary
-modified: 2014-08-27
+modified: 2015-03-25
 ---
 கணினிக்கு என்ன தெரியும் ?
 0 / 1
