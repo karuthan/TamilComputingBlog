@@ -75,9 +75,15 @@ blockquote {
   padding-left: $gutter;
   padding-right: $gutter;
   border-left: 6px solid $info-color;
+  border-left-width: 10px;
+  background-color: rgba(128,128,128,0.05);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 15px 20px;  
+  
   p {
     font-family: $alt-font;
-    @include font-size(24);
+    @include font-size(18);
   }
   cite {
     font-family: $base-font;
