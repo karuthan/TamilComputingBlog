@@ -1,4 +1,4 @@
-﻿---
+---
 title: agile, ஓர் உரிச்சொலா?  is agile an adjective?
 layout: article 
 author: கருத்தன்
