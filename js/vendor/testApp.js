@@ -22,7 +22,7 @@
   angular.module( 'testApp.controllers' ).controller( 'testController', 
   function( $scope ) {
 	
-    $scope.results = ['Killer','Ilan','Prince']; 
+    $scope.results = ['Killer',' <==> ','Prince']; 
 	
 	})
 })();
