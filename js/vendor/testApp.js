@@ -20,9 +20,13 @@
 
   'use strict';
   angular.module( 'testApp.controllers' ).controller( 'testController', 
-  function( $scope ) {
+  function( $scope, $http) {
+	  
+	$scope.results = ['Killer_new',' <==> ','Prince']; 
 	
-    $scope.results = ['Killer',' <==> ','Prince']; 
-	
+    $http.get("data/terms.json")
+    .success(function(response) {
+		$scope.results = response;
+		});	
 	})
 })();
