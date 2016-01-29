@@ -24,7 +24,7 @@
 	  
 	$scope.results = ['Killer_new',' <==> ','Prince']; 
 	
-    $http.get("/js/vendor/term.js")
+    $http.get("/js/vendor/terms.js")
     .success(function(response) {
 		$scope.results = response;
 		});	
