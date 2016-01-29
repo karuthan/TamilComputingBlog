@@ -27,7 +27,7 @@
 		if(!angular.isDefined($scope.searchText) || $scope.searchText == "" ){
 			return true;
 		}
-		return term.indexOf($scope.searchText) > -1;
+		return term.toLowerCase().indexOf($scope.searchText.toLowerCase()) > -1;
 	} 	
    
     $http.get("/js/vendor/terms.js")
