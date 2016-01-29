@@ -20,10 +20,16 @@
 
   'use strict';
   angular.module( 'testApp.controllers' ).controller( 'testController', 
-  function( $scope, $http) {
-	  
-	$scope.results = ['Killer_new',' <==> ','Prince']; 
-	
+  function( $scope, $http) {	  
+	$scope.results = ['Killer_new',' <==> ','Prince']; 	
+	$scope.searchText ="";
+	$scope.canShowTerm = function(term) {
+		if(!angular.isDefined($scope.searchText) || $scope.searchText == "" ){
+			return true;
+		}
+		return term.indexOf(searchText) > -1
+	} 	
+   
     $http.get("/js/vendor/terms.js")
     .success(function(response) {
 		$scope.results = response;
